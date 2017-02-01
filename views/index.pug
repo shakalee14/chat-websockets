@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Socket.IO chat
+    link(rel='stylesheet', type='text/css', href='./styles.css')
+    link(href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet")
+  body
+    h1 Chat with Shaka!
+    ul#messages
+    form(action='')
+      input#m(autocomplete='off')
+      button Send
+    script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+    script(src='http://code.jquery.com/jquery-1.11.1.js')
+    script(src='./client.js')
