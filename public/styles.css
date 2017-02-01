@@ -6,6 +6,8 @@
 
 body {
   font-family:'Lato', sans-serif;
+  padding: 10px;
+  margin: 10px;
 }
 
 form {
@@ -30,6 +32,14 @@ form button {
   padding: 10px;
 }
 
+.messages {
+  width: 100%;
+  height: 500px;
+  background-image: url('http://www.dianarobinsonphotos.com/blog/wp-content/uploads/2014/10/DR_D800e_20141025_0071_ed.jpg');
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  opacity: 25%;
+}
+
 #messages {
   list-style-type: none;
   margin: 0;
@@ -38,8 +48,15 @@ form button {
 
 #messages li {
   padding: 5px 10px;
+  color: white;
 }
 
 #messages li:nth-child(odd) {
-  background: #eee;
+  color: black;
+  background: rgb(255,255,224);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
